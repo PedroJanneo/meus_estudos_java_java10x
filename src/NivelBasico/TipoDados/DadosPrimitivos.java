@@ -1,4 +1,4 @@
-package TipoDados;
+package NivelBasico.TipoDados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {

@@ -1,13 +1,13 @@
-package Scanner;
+package NivelBasico.Scanner;
 
 import java.util.Scanner;
 
 public class ScannerDoUsuario {
     public static void main(String[] args) {
 
-        // struct do Scanner
+        // struct do NivelBasico.Scanner
         Scanner sc = new Scanner(System.in);
-        // Scanner pega tudo  que for digitado via terminal, permitindo o usuario interagir
+        // NivelBasico.Scanner pega tudo  que for digitado via terminal, permitindo o usuario interagir
 
         System.out.println("Escreva seu nome ");
         String name = sc.nextLine();
@@ -23,7 +23,7 @@ public class ScannerDoUsuario {
         } else {
             System.out.println("Menor de idade ");
         }
-         // close in Scanner
+         // close in NivelBasico.Scanner
         sc.close();
 
     }
