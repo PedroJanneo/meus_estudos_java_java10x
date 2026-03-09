@@ -9,7 +9,13 @@ public class Ninja {
 
 
     public void mostrarInformacoes(){
-//        System.out.println("Me chamo " + nome + " e tenho " + idade + " anos,Estou fazendo a missao " + missao + " que possui a dificuldade " + nivelDificuldade + " e atualmente ela está " + statusMissao);
-        System.out.println("Me chamo " + nome + " e tenho " + idade + " anos");
+
+        if ( missao == null && statusMissao == null){
+            System.out.println("Me chamo " + nome + " e tenho " + idade + " anos");
+        } else{
+            System.out.println("Me chamo " + nome + " e tenho " + idade + " anos,Estou fazendo a missao " + missao + " que possui a dificuldade " + nivelDificuldade + " e atualmente ela está " + statusMissao);
+        }
+
+
     }
 }

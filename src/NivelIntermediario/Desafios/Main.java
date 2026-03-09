@@ -21,15 +21,17 @@ public class Main {
 
         int contador = 0;
         int ninjasCadastrados = 0;
-        int ninjasMaximo= 2;
+        int ninjasMaximo= 1;
         Uchiha[] ninjas = new Uchiha[ninjasMaximo];
 
-        while( contador != 4){
+        while( contador != 6){
             System.out.println("\n===== Menu Ninja =====");
             System.out.println("1. Cadastrar Ninja");
             System.out.println("2. Listar Ninjas");
             System.out.println("3. Mudar Habilidade");
-            System.out.println("4. Sair");
+            System.out.println("4. Atribuir missão");
+            System.out.println("5. Atualizar status missão");
+            System.out.println("6. Sair");
             System.out.print("Escolha uma opção: ");
             contador = sc.nextInt();
             sc.nextLine();
@@ -44,7 +46,7 @@ public class Main {
                         novoNinja.idade = sc.nextInt();
                         ninjas[ninjasCadastrados] = novoNinja;
                         ninjasCadastrados++;
-                        System.out.println("Ninja cadastradi com sucesso ");
+                        System.out.println("Ninja cadastrado com sucesso ");
 
 
 
@@ -83,6 +85,46 @@ public class Main {
                     }
                     break;
                 case 4:
+                    if(ninjasCadastrados == 0){
+                        System.out.println("Sem ninjas disponiveis ");
+                    } else {
+                        System.out.println("Digite p numero (ID) do ninja para a missao (de 0 a " + (ninjasCadastrados -1) + " )");
+                        int idNinja = sc.nextInt();
+                        sc.nextLine();
+
+                        if (idNinja >= 0 && idNinja < ninjasCadastrados){
+                            Uchiha novoNinja = new Uchiha();
+                            System.out.println("Digite a missao: ");
+                            String missao = sc.nextLine();
+                            ninjas[idNinja].missao = missao;
+                            System.out.println("Dificuldade da missao: ");
+                            String dificuldade = sc.nextLine();
+                            ninjas[idNinja].nivelDificuldade = dificuldade;
+                            String status = "Iniciando";
+                            ninjas[idNinja].statusMissao = status;
+
+
+                        } else {
+                            System.out.println("Ninja invalido");
+                        }
+                    }
+                    break;
+                case 5:
+                    if (ninjasCadastrados == 0){
+                        System.out.println("Nenhum Ninja");
+                    } else{
+                        System.out.println("Digite o numero (ID) do ninja para a missao (de 0 a " + (ninjasCadastrados -1) + " )");
+                        int idNinja = sc.nextInt();
+                        sc.nextLine();
+                        if(idNinja >=0 && idNinja <ninjasCadastrados){
+                            Uchiha novoNinja = new Uchiha();
+                            System.out.println("Como está o andamento da missão? (Em andamento, Completa ou Fracassada");
+                            String status = sc.nextLine();
+                            ninjas[idNinja].statusMissao = status;
+                        }
+                    }
+                    break;
+                case 6:
                     System.out.println("Saindo...");
                     break;
                 default:

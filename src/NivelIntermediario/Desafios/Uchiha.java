@@ -6,10 +6,15 @@ public class Uchiha extends  Ninja{
     @Override
     public void mostrarInformacoes() {
         super.mostrarInformacoes();
-        System.out.println("Vou usar minha habilidade especial " + habilidadeEspecial);
+        if ( habilidadeEspecial == null){
+            System.out.println("Não tenho nenhuma habilidade especial ainda");
+        } else{
+            System.out.println("Vou usar minha habilidade especial " + habilidadeEspecial);
+        }
+
     }
 
     public void mostrarHabilidadeEspecial(){
-        System.out.println("Vou usar minha habilidade especial " + habilidadeEspecial);
+        System.out.println("Sinta a minha habilidade:  " + habilidadeEspecial);
     }
 }
