@@ -35,6 +35,12 @@ public class Main {
 
         sasuke.SharinganAtivado();
 
+        ClaHyuga hinata = new ClaHyuga();
+        hinata.nome = "Hinata";
+        hinata.idade = 17;
+        hinata.aldeia = "Aldeira da folha";
+        hinata.ByagukanAtivado();
+
         System.out.println("Menu nome é " + naruto.nome + " e tenho " + naruto.idade + " anos, e  sou da Vila " + naruto.aldeia);
         System.out.println("Menu nome é " + sasuke.nome + " e tenho " + sasuke.idade + " anos, e  sou da Vila " + sasuke.aldeia);
         System.out.println("Menu nome é " + sakura.nome + " e tenho " + sakura.idade + " anos, e  sou da Vila " + sakura.aldeia);
@@ -42,5 +48,17 @@ public class Main {
         int chamandoMetodoNovo = sasuke.anosParaSerHokage(70);
         System.out.println(chamandoMetodo); // Chamando a função euSouUmNinja, para parecer via terminal
         System.out.println(chamandoMetodoNovo); // Chamando a função anosParaHokage. para parecer via terminal
+
+
+
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto";
+        boruto.idade = 21;
+        boruto.aldeia = "Folha";
+        boruto.ModoSabio();
+        boruto.AtivarJougan();
+        boruto.AtivarKarma();
+        boruto.AtacarComChakara("Relampago");
+
     }
 }
