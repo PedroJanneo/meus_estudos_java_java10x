@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 /**
  * <b>Interfaces:</b> são como moldes/contratos.

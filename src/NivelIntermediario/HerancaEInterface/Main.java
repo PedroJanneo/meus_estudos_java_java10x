@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 /**
  * <b>PILARES DA ORIENTAÇÃO OBJETO: </b><br><br>

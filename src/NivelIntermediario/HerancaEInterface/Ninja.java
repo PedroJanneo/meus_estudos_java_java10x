@@ -1,6 +1,4 @@
-package NivelIntermediario;
-
-import java.text.BreakIterator;
+package NivelIntermediario.HerancaEInterface;
 
 public class Ninja {
     String nome;

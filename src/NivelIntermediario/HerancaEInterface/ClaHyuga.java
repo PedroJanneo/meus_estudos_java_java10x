@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 public class ClaHyuga extends Ninja{
 

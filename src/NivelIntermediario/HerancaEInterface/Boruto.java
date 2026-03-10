@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 public class Boruto extends ClaUzumaki implements  HyugaUzumaki{
 

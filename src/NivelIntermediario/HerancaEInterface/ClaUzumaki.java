@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 /**
  * Classe criada para apenas quem for do ClaUzumaki ( da Classe) ter acesso ao metodo ModoSabio

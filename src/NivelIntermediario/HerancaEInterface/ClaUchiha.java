@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.HerancaEInterface;
 
 /** Principio da herança, onde a classe 'ClaUchiha' recebe todos os atributos da classe 'Ninja' através da palavra extends
  * <br>
