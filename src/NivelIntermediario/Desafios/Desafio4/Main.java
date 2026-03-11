@@ -15,6 +15,20 @@ public class Main {
         kage.mostrarInformacoes();
         kage.executarHabilidade();
 
+        Ninja[] listaNinja = new Ninja[4]; // só é possivel colcoar ambas (NinjaBasico e Ninjaavancado) na mesma Array, pois ambas são 'filhas' da interface Ninja
+        listaNinja[0] = gennin;
+        listaNinja[1] = gennin2;
+        listaNinja[2] = kage;
+        listaNinja[3] = kage2;
+
+
+
+        for (int i = 0; i < listaNinja.length; i++) {
+            listaNinja[i].mostrarInformacoes();
+            listaNinja[i].executarHabilidade();
+            System.out.println("-----------------");
+
+        }
 
         }
 
