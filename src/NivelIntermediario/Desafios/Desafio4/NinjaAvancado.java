@@ -4,9 +4,9 @@ public class NinjaAvancado implements Ninja{
     String nome;
     int idade;
     String habilidade;
-    String especialidade;
+    Habilidade especialidade;
 
-    public NinjaAvancado(String nome, int idade, String habilidade, String especialidade) {
+    public NinjaAvancado(String nome, int idade, String habilidade, Habilidade especialidade) {
         this.nome = nome;
         this.idade = idade;
         this.habilidade = habilidade;

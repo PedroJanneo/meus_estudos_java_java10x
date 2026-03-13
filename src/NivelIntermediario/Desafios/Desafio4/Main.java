@@ -6,8 +6,8 @@ public class Main {
         NinjaBasico gennin = new NinjaBasico("Jota","Chuva de kunai",21);
         NinjaBasico gennin2 = new NinjaBasico("Joao","Chuva de shuriken",24);
 
-        NinjaAvancado kage = new NinjaAvancado("Minato",24,"teletransporte","rasengan");
-        NinjaAvancado kage2 = new NinjaAvancado("Naruto",24,"Manto da kurama","rasengan gigante");
+        NinjaAvancado kage = new NinjaAvancado("Minato",24,"teletransporte",Habilidade.NINJUTSU);
+        NinjaAvancado kage2 = new NinjaAvancado("Naruto",24,"Manto da kurama",Habilidade.SENJUTSU);
 
         gennin.mostrarInformacoes();
         gennin.executarHabilidade();
