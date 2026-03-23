@@ -7,5 +7,10 @@ public class Main {
         sasuke.nome = "sasuke";
         sasuke.minhaEstrategiabatalha();
         sasuke.ataqueEspecial();
+
+
+        Uchiha itachi = new Uchiha("Itachi","Folha",21);
+        itachi.minhaEstrategiabatalha();
+        itachi.ataqueEspecial();
     }
 }
