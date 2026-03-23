@@ -27,3 +27,9 @@ que outras classes vão herdar.
   - Uma SubClasse pode ter só uma superClasse (mãe)
   - Construtor SubClasses → usamos a palavra "Super()"
   - Exemplos de construtor no arquivo [Uchiha](src\NivelIntermediario\PolimorfismoXAbstracao\Uchiha.java) )
+
+
+## Herança Múltipla
+
+- Uma classe pode HERDAR (extends) somente uma CLASSE, mas pode IMPLEMENTAR (implements) várias interfaces.
+- Paa implementar mais de uma interface, basta usar , (virgula). [exemplo](src/NivelIntermediario/HerancaMultipla/Hatake.java)
