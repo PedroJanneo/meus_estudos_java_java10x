@@ -1,4 +1,4 @@
-package NivelIntermediario.OverloadSobrecargaConstrutores;
+package NivelIntermediario.OverloadSobrecarga;
 
 
 public class Main {
@@ -27,6 +27,8 @@ public class Main {
         Uchiha itachi = new Uchiha("Itachi","Konoha",24,15, NivelNinja.GENIN);
         itachi.ataqueEspecial();
         itachi.minhaEstrategiabatalha();
+        itachi.inteligenciaBatalha(); // metodo 1
+        itachi.inteligenciaBatalha(980); // metodo Sobrecarregado
 
     }
 }

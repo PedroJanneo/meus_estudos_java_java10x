@@ -1,4 +1,4 @@
-package NivelIntermediario.OverloadSobrecargaConstrutores;
+package NivelIntermediario.OverloadSobrecarga;
 
 import NivelIntermediario.PolimorfismoXAbstracao.EstrategiaDeBatalha;
 
@@ -42,5 +42,23 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     @Override
     public void minhaEstrategiabatalha() {
         System.out.println("Eu sou o  " + nome + " este é minha estrategia, completei " + numeroDeMissoesConcluidas + " missoes");
+    }
+
+    // 1º metodo
+    public void inteligenciaBatalha(){
+        System.out.println("Meu nome é " + nome + " e este é minah inteligencia de batalha");
+    }
+
+    //Sobrecarga de metodo ( do metodo da linha 48)
+    // nome do metodo exatamente igual, o que muda é o seu parâmetro
+    public void inteligenciaBatalha(int qi){
+        System.out.println("Qual seu QI? ");
+        if (qi > 150){
+            System.out.println("Sou o melhor no campo  de batalha ");
+        } else if( qi>=130){
+            System.out.println("QI de " + qi + " e sou prmissor");
+        } else {
+            System.out.println("Preciso estudar mais");
+        }
     }
 }

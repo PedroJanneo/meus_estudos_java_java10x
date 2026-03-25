@@ -1,4 +1,4 @@
-package NivelIntermediario.OverloadSobrecargaConstrutores;
+package NivelIntermediario.OverloadSobrecarga;
 
 
 public class Uchiha extends Ninja {
@@ -27,5 +27,18 @@ public class Uchiha extends Ninja {
     @Override
     public void ataqueEspecial() {
         System.out.println("Eu sou " + nome + " e usei bola de fogo e shurikens ");
+    }
+
+    // sobreescrita da classe ninja
+    @Override
+    public void inteligenciaBatalha() {
+        System.out.println("Meu nome é " + nome + " e este é minah inteligencia de batalha, estilo Uchiha");
+    }
+
+    // sobreescrita da classe ninja
+    @Override
+    public void inteligenciaBatalha(int qi){
+        super.inteligenciaBatalha(qi); // ele vai puxar o metodo da classe Ninja
+        System.out.println("eu sou uchiha, rexpeitaaaaaaaaa");
     }
 }
