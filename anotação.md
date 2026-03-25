@@ -29,13 +29,22 @@ que outras classes vão herdar.
   - Exemplos de construtor no arquivo [Uchiha](src\NivelIntermediario\PolimorfismoXAbstracao\Uchiha.java) )
 
 
+- Override (sobrescrita) é quando a classe filha reescreve um método da classe pai,
+mantendo a mesma assinatura (nome + parâmetros), mas alterando o comportamento (corpo).
+[Exemplo](src\NivelIntermediario\OverloadSobrecarga\Uchiha.java)
+
 ## Herança Múltipla
 
 - Uma classe pode HERDAR (extends) somente uma CLASSE, mas pode IMPLEMENTAR (implements) várias interfaces.
 - Pra implementar mais de uma interface, basta usar , (virgula). [exemplo](src/NivelIntermediario/HerancaMultipla/Hatake.java)
 
-## SobreCarga Construtores
+## SobreCarga Construtores (Overload)
 
-- Quando escrevemos mais de uma vez, o construtor ( sendo, adicionando um novo atributo, no qual foi implementado tempos depois)
-- [Exemplo prático 1](src/NivelIntermediario/OverloadSobrecargaConstrutores/Ninja.java)
-- [Exemplo prático 2](src/NivelIntermediario/OverloadSobrecargaConstrutores/Uchiha.java)
+- Quando escrevemos mais de uma vez, o construtor (sendo, adicionando um novo atributo, no qual foi implementado tempos depois)
+- [Exemplo prático 1](src/NivelIntermediario/OverloadSobrecarga/Ninja.java)
+- [Exemplo prático 2](src/NivelIntermediario/OverloadSobrecarga/Uchiha.java)
+
+## Sobrecarga Metodos (Overload)
+
+- Quando escrevemos um metodo com o mesmo nome (na mesma classe), mas mudamos um parâmetro (tipo, quantidade ou ordem).
+- [Exemplo prático](src/NivelIntermediario/OverloadSobrecarga/Ninja.java)
