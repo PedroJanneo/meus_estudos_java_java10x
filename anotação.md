@@ -32,4 +32,10 @@ que outras classes vão herdar.
 ## Herança Múltipla
 
 - Uma classe pode HERDAR (extends) somente uma CLASSE, mas pode IMPLEMENTAR (implements) várias interfaces.
-- Paa implementar mais de uma interface, basta usar , (virgula). [exemplo](src/NivelIntermediario/HerancaMultipla/Hatake.java)
+- Pra implementar mais de uma interface, basta usar , (virgula). [exemplo](src/NivelIntermediario/HerancaMultipla/Hatake.java)
+
+## SobreCarga Construtores
+
+- Quando escrevemos mais de uma vez, o construtor ( sendo, adicionando um novo atributo, no qual foi implementado tempos depois)
+- [Exemplo prático 1](src/NivelIntermediario/OverloadSobrecargaConstrutores/Ninja.java)
+- [Exemplo prático 2](src/NivelIntermediario/OverloadSobrecargaConstrutores/Uchiha.java)
