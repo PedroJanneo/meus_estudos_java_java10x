@@ -1,0 +1,32 @@
+package NivelIntermediario.OverloadSobrecargaConstrutores;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        // Teste Uchiha 1 ( Construtor vazio)
+       Uchiha sasuke = new Uchiha();
+       sasuke.nome = "Sasuke";
+       sasuke.idade = 21;
+       sasuke.aldeia = "Folha";
+       sasuke.numeroDeMissoesConcluidas = 4;
+       sasuke.rankNinja = NivelNinja.GENIN; // NivelNinja →  ENUM
+                                            // GENIN → Atributo/valor dentro do ENUM NivelNinja
+        sasuke.minhaEstrategiabatalha();
+        sasuke.ataqueEspecial();
+        System.out.println("------------------------");
+
+        // Teste uchiha 2 ( antigo construtor)
+        Uchiha madara = new Uchiha("Madara","Folha",21);
+        madara.ataqueEspecial();
+        madara.minhaEstrategiabatalha();
+        System.out.println("------------------------");
+
+       // Teste Uchiha 3 (novo Construtor)
+        Uchiha itachi = new Uchiha("Itachi","Konoha",24,15, NivelNinja.GENIN);
+        itachi.ataqueEspecial();
+        itachi.minhaEstrategiabatalha();
+
+    }
+}
