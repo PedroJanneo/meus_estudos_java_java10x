@@ -30,5 +30,11 @@ public class Main {
         itachi.inteligenciaBatalha(); // metodo 1
         itachi.inteligenciaBatalha(980); // metodo Sobrecarregado
 
+        System.out.println("------------------------------------");
+        // Refatorando
+        Uzumaki naruto = new Uzumaki("Naruto","Konoha",21, Biju.KURAMA);
+        System.out.println(naruto);
+
+
     }
 }
