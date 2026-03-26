@@ -48,3 +48,9 @@ mantendo a mesma assinatura (nome + parâmetros), mas alterando o comportamento 
 
 - Quando escrevemos um metodo com o mesmo nome (na mesma classe), mas mudamos um parâmetro (tipo, quantidade ou ordem).
 - [Exemplo prático](src/NivelIntermediario/OverloadSobrecarga/Ninja.java)
+
+## Override
+
+- Usamos or convenção (boas práticas no java).
+- Compilação, prevenir que haja erros de digitação de uma classe para outra (se o metodo se chama 'teste' e eu vou fazer uma sobrescrita em outra classe, se por acaso eu escrever 'testes' ou 'Teste' vai dar erro)
+- [Exemplo de Override](src/NivelIntermediario/OverloadSobrecarga/Uchiha.java)

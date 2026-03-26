@@ -36,7 +36,7 @@ public class Uchiha extends Ninja {
     }
 
     // sobreescrita da classe ninja
-    @Override
+    @Override // ← este metodo, vem da classe Ninja, a palavra Override, não é obrigatória estar ali, mas é uma boa prática e ajuda a prevenir erros de digitação.
     public void inteligenciaBatalha(int qi){
         super.inteligenciaBatalha(qi); // ele vai puxar o metodo da classe Ninja
         System.out.println("eu sou uchiha, rexpeitaaaaaaaaa");
