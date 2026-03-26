@@ -54,3 +54,10 @@ mantendo a mesma assinatura (nome + parâmetros), mas alterando o comportamento 
 - Usamos or convenção (boas práticas no java).
 - Compilação, prevenir que haja erros de digitação de uma classe para outra (se o metodo se chama 'teste' e eu vou fazer uma sobrescrita em outra classe, se por acaso eu escrever 'testes' ou 'Teste' vai dar erro)
 - [Exemplo de Override](src/NivelIntermediario/OverloadSobrecarga/Uchiha.java)
+
+## toString
+
+- Ao invés de mostrar a referência de memória, faz virar um texto.
+- [Exemplo com toString](src/NivelIntermediario/ReferenciaMemoria/Uchiha.java)
+- [Exemplo sem toString](src/NivelIntermediario/ReferenciaMemoria/Uzumaki.java)
+- [Exemplo no main com e sem toString](src/NivelIntermediario/ReferenciaMemoria/Main.java)
