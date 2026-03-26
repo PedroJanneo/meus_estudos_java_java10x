@@ -12,6 +12,7 @@ que outras classes vão herdar.
 
 - Interface → como se fosse contrato, obrigando a implementar metodos onde forem implementadas 
 
+- Interface → seus atributos serão fixas (final), não irão mudar.
 
 ## Classes 
 
@@ -61,3 +62,15 @@ mantendo a mesma assinatura (nome + parâmetros), mas alterando o comportamento 
 - [Exemplo com toString](src/NivelIntermediario/ReferenciaMemoria/Uchiha.java)
 - [Exemplo sem toString](src/NivelIntermediario/ReferenciaMemoria/Uzumaki.java)
 - [Exemplo no main com e sem toString](src/NivelIntermediario/ReferenciaMemoria/Main.java)
+
+## Classe final X Abstrata
+
+Diferença:
+
+- Na classe final, ela não pode ser herdada (extends) por nenhuma outra classe, mas pode ser instanciada.
+  [Exemplo Classe Final](src/NivelIntermediario/FinalMethodsEClasse/Ambu.java)
+
+- Na classe Abstrata, ela pode ser herdada (extends) por outra classe, mas não pode ser instanciada.
+  [Exemplo Classe Abstrata](src/NivelIntermediario/FinalMethodsEClasse/Ninja.java)
+
+Na [main](src/NivelIntermediario/FinalMethodsEClasse/main.java) conseguimos ver que a classe Ninja não pode ser instanciada.
