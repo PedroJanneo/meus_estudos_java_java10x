@@ -74,3 +74,8 @@ Diferença:
   [Exemplo Classe Abstrata](src/NivelIntermediario/FinalMethodsEClasse/Ninja.java)
 
 Na [main](src/NivelIntermediario/FinalMethodsEClasse/main.java) conseguimos ver que a classe Ninja não pode ser instanciada.
+
+# Enum
+
+"Classe" poderosa, usada mais para valores fixos
+Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Habilidade.java) e no [RankMissao](src/NivelIntermediario/Enums/RankMissao.java)
