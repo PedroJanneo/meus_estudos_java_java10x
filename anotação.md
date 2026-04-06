@@ -79,3 +79,16 @@ Na [main](src/NivelIntermediario/FinalMethodsEClasse/main.java) conseguimos ver 
 
 "Classe" poderosa, usada mais para valores fixos
 Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Habilidade.java) e no [RankMissao](src/NivelIntermediario/Enums/RankMissao.java)
+
+## Array X List
+
+- Array:
+  - Estaticos, você define o valor ( tamanho dela)
+  - Adiciona conforme o [indice](src/NivelIntermediario/List/Main.java)
+  - Para 'printar', precisamos escolher o indice ou usar o for para percorrer tudo
+
+
+- List (Chamado de Arraylist):
+  - Não são estaticos, podemos aumentar e diminuir  quando quiser.
+  - Para adicionar usamos o [.add](src/NivelIntermediario/List/Main.java) e para remover o [.remove](src/NivelIntermediario/List/Main.java)
+  - Conseguimos 'printar' ela por inteira
