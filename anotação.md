@@ -75,6 +75,12 @@ Diferença:
 
 Na [main](src/NivelIntermediario/FinalMethodsEClasse/main.java) conseguimos ver que a classe Ninja não pode ser instanciada.
 
+
+## Encapsulamento (GET e SET)
+
+- SETS: usado para cadastrar o valor.
+- GETS: usado para puxar/mostrar o valor.
+
 # Enum
 
 "Classe" poderosa, usada mais para valores fixos
