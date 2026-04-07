@@ -81,7 +81,7 @@ Na [main](src/NivelIntermediario/FinalMethodsEClasse/main.java) conseguimos ver 
 - SETS: usado para cadastrar o valor.
 - GETS: usado para puxar/mostrar o valor.
 
-# Enum
+## Enum
 
 "Classe" poderosa, usada mais para valores fixos
 Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Habilidade.java) e no [RankMissao](src/NivelIntermediario/Enums/RankMissao.java)
@@ -98,3 +98,10 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
   - Não são estaticos, podemos aumentar e diminuir  quando quiser.
   - Para adicionar usamos o [.add](src/NivelIntermediario/List/Main.java) e para remover o [.remove](src/NivelIntermediario/List/Main.java)
   - Conseguimos 'printar' ela por inteira
+
+## Generics
+
+- Deixar código escalável
+- Facilitar manutenção
+- Código reutilizável e genérico
+- Usamos `<T> `para receber valores genéricos. (o T é uma boa pratica)[`<T>` na prática](src/NivelIntermediario/Generics/Main.java)
