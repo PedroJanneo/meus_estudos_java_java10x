@@ -10,12 +10,17 @@ public class Main {
         Equipamento atadura = new Equipamento("Atadura");
 
         Bolsa<Equipamento> bolsaNinja = new Bolsa<>();
+        // outra forma de fazer
+        Bolsa<Object> bolsaNinja2 = new Bolsa<>();
 
         bolsaNinja.adicionarItem(kunai);
         bolsaNinja.adicionarItem(shuriken);
         bolsaNinja.adicionarItem(pergaminho);
         bolsaNinja.adicionarItem(atadura);
+      // outra forma de criar e ja adicionar na List
+        bolsaNinja2.adicionarItem((new Equipamento("Poção de veneno"))); // criando de forma direta, para poluir menos o código
 
         System.out.println(bolsaNinja);
+        System.out.println(bolsaNinja2);
     }
 }
