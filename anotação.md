@@ -105,3 +105,10 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
 - Facilitar manutenção
 - Código reutilizável e genérico
 - Usamos `<T> `para receber valores genéricos. (o T é uma boa pratica)[`<T>` na prática](src/NivelIntermediario/Generics/Main.java)
+
+
+## Records
+
+- Já devolve construtor, GETs e o toString por padrão.
+- Todos atributos são `final` por padrão
+- Usar quando uma classe for constante (não vai mudar) 
