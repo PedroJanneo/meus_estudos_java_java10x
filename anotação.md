@@ -112,3 +112,13 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
 - Já devolve construtor, GETs e o toString por padrão.
 - Todos atributos são `final` por padrão
 - Usar quando uma classe for constante (não vai mudar) 
+
+## Stack
+
+- uma lista vertical (pense numa lista em pé)
+- Ultimo elemento adicionado vira o primeiro a sair
+- Para adicionar elementos no stack, ele é parecido com o List, mas tem metodos proprios, sendo eles:
+  - Push() -> colocar elemento na lista;
+  - Pop() -> remover o elemento (tirar o elemento no topo)
+  - Peek() -> olhar o proximo elemento ( no topo)
+  - size() -> tamanho da pilha;
