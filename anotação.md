@@ -116,12 +116,22 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
 ## Stack
 
 - uma lista vertical (pense numa lista em pé)
-- Ultimo elemento adicionado vira o primeiro a sair
+- Ultimo elemento adicionado vira o primeiro a sair (metodo FILO/LIFO)
 - Para adicionar elementos no stack, ele é parecido com o List, mas tem metodos proprios, sendo eles:
   - Push() -> colocar elemento na lista;
   - Pop() -> remover o elemento (tirar o elemento no topo)
   - Peek() -> olhar o proximo elemento ( no topo)
-  - size() -> tamanho da pilha;
+  - size() -> tamanho da pilha; 
+  
+- Precisa voltar(igual historio de navegação)
+
+## Queue
+- Conhecido como fila
+- diferente do stack, o primeiro a entrar é o primeiro a sair. (Metodo FIFO)
+- Head ( primeiro da lista) e Tail ( ultimo da fila)
+- Não da para deletar o TAIL (ultimo objeto)
+- ordem de chegada importa (igual fila de atendimento)
+
 
 ## Array x List x Stack
 
