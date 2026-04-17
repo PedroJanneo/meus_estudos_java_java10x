@@ -122,3 +122,17 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
   - Pop() -> remover o elemento (tirar o elemento no topo)
   - Peek() -> olhar o proximo elemento ( no topo)
   - size() -> tamanho da pilha;
+
+## Array x List x Stack
+
+- List mais lento que o Array.
+- Array estáticos (tamanho definido)
+- List flexível (não tem tamanho definido)
+- Stack são listas ordenadas 
+- Usamos stack quando quisemos uma ordenação
+
+
+
+- Diferença do Stack pro List:
+  - Stack é uma pilha (ordenado, tirando o último item adicionado)
+  - List é uma lista horizontal (não tendo uma ordem especifíca)
