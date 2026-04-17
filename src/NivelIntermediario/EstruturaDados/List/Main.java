@@ -1,4 +1,4 @@
-package NivelIntermediario.List;
+package NivelIntermediario.EstruturaDados.List;
 
 import java.util.ArrayList;
 import java.util.List;
