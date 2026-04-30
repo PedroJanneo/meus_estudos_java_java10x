@@ -146,3 +146,12 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
 - Diferença do Stack pro List:
   - Stack é uma pilha (ordenado, tirando o último item adicionado)
   - List é uma lista horizontal (não tendo uma ordem especifíca)
+
+## ArrayList X LinkedList
+
+- LinkedList é chamada de lista encadeada.
+- ArrayList: rápido para acesso por índice, mais lento para inserções/remoções no meio
+- LinkedList: lento para acesso, mas melhor para inserções/remoções frequentes no meio da lista
+
+
+collection -> é uma interface de estrutura de dados ( list, queue...)
