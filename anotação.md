@@ -155,3 +155,33 @@ Usado com coerencia nos [desafio 4](src/NivelIntermediario/Desafios/Desafio4/Hab
 
 
 collection -> é uma interface de estrutura de dados ( list, queue...)
+
+
+## Set (Collection)
+
+- `Set` possui diferentes implementações.
+- É utilizado quando queremos evitar elementos duplicados em uma coleção.
+
+### Implementações principais
+
+- `HashSet`
+  - Não mantém ordem dos elementos.
+  - Melhor quando a ordem não importa.
+  - Não permite duplicatas.
+
+- `TreeSet`
+  - Mantém os elementos ordenados.
+  - `String` fica em ordem alfabética.
+  - Números ficam em ordem numérica.
+  - Não permite duplicatas.
+
+- `LinkedHashSet`
+  - Mantém a ordem de inserção.
+  - Não permite duplicatas.
+
+HashSet → mais rápido
+
+LinkedHashSet → um pouco mais pesado
+
+TreeSet → mais lento (porque ordena)
+
